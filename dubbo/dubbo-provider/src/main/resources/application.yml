@@ -1,0 +1,18 @@
+dubbo:
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    port: -1
+    name: dubbo
+  metadata-report:
+    address: zookeeper://127.0.0.1:2181
+demo:
+  service:
+    version: 0.0.1
+
+
+spring:
+  application:
+    name: dubbo-provider
+  main:
+    allow-bean-definition-overriding: true
