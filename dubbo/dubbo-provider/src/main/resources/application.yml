@@ -12,7 +12,7 @@ demo:
 
 
 spring:
-  application:
-    name: dubbo-provider
   main:
     allow-bean-definition-overriding: true
+  application:
+    name: dubbo-provider
